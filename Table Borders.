@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-style: dotted;
+}
+th, td {
+  background-color: #96D4D4;
+}
+</style>
+</head>
+<body>
+
+<h2>Nguyễn Công Thịnh-2221050527</h2>
+<p>dưới đây là các loại đường viền bảng</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Đường viền chấm</th>
+    <th>đường viền tròn</th> 
+    <th>đường viền bảng thu gọn</th>
+  </tr>
+  <tr>
+    <td>dùng border-style: dotted; trong thẻ định nghĩa css</td>
+    <td>dùng border-radius: 10px; ta có thể sử dụng đường viền tròn</td>
+    <td>ta thêm border-collapse: collapse; vào định nghĩa css của table,th,td</td>
+  </tr>
+ 
+</table>
+<p> ngoài ra, ta có thể thêm màu đường viền, màu nền vào trong bảng </p>
+</body>
+</html>
+
